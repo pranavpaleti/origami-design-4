@@ -1,0 +1,57 @@
+p{
+    color:#ff0000;
+    padding: 20px;
+    font-size: 15px;
+    }
+li{
+    color: #000000;
+}
+.origami{
+  background-image: "bg.jpg";
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content:flex-end ;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+.chameleon{
+background-color: #00ffff;
+display: flex;
+justify-content: baseline;
+width: 500px;
+border-radius: 20px;
+margin: 20px;
+box-shadow: #000000;
+}
+.pigeon{
+    background-color: #00ff00;
+    display: flex;
+    justify-content: baseline;
+    width: 500px; 
+    border-radius: 20px;
+    margin: 20px;
+}
+.camel{
+background-color: #00ff00;
+display: flex;
+justify-content: baseline;
+width: 500px;
+border-radius: 20px;
+margin: 20px;
+}
+.cicada{
+background-color: #ffff00;
+display: flex;
+justify-content: baseline;
+width: 500px;
+border-radius: 20px;
+margin: 20px;
+}
+body{
+    background-image: url("bg.jpg");
+}
+.origami: hover{
+transform: scale(1,2)
+}
